@@ -12,4 +12,4 @@ document.getElementById("restart").onclick = () => wizRight.restart();
 gsap.to("button", { padding: "10", color: "orange", backgroundColor: "black", borderRadius: "15px" });
 gsap.to("a", { backgroundColor: "orange", color: "white" });
 
-gsap.fromTo(".text", { x: 10, y: -10, opacity: "0" }, { duration: 2, x: 200, y: -10, fontSize: "1.5em", opacity: "1", fontFamily: "fantasy" });
+gsap.fromTo(".text", { x: 10, y: -10, opacity: "0" }, { duration: 2, x: 200, y: -10, ease: "elastic", backgroundColor: "orange", color: "white", padding: "20", width: "400", borderRadius: "15px", fontSize: "1.5em", opacity: "1", fontFamily: "fantasy" });
