@@ -1,4 +1,4 @@
-var wizRight = gsap.fromTo(".wizard", { x: 10, opacity: "0" }, { duration: 3, x: 400, y: 100, scale: "2", ease: "linear", opacity: "1", paused: true });
+var wizRight = gsap.fromTo(".wizard", { x: 400, opacity: "0" }, { duration: 3, x: 500, y: 200, scale: "2", ease: "back", opacity: "1", paused: true });
 
 document.getElementById("play").onclick = () => wizRight.play();
 
