@@ -10,3 +10,4 @@ document.getElementById("rewind").onclick = () => wizRight.reverse();
 document.getElementById("restart").onclick = () => wizRight.restart();
 
 gsap.to("button", { padding: "10", color: "orange", backgroundColor: "black", borderRadius: "15px" });
+gsap.to("a", { backgroundColor: "orange", color: "white" });

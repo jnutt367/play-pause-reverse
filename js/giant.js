@@ -8,3 +8,4 @@ document.getElementById("rewind").onclick = () => giantGo.reverse();
 document.getElementById("restart").onclick = () => giantGo.restart();
 
 gsap.to("button", { padding: "10", color: "white", backgroundColor: "purple", borderRadius: "15px", fontFamily: "fantasy", fontWeight: "bold" });
+gsap.to("a", { backgroundColor: "black", color: "white" });
