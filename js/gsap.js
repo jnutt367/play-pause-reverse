@@ -11,3 +11,5 @@ document.getElementById("restart").onclick = () => wizRight.restart();
 
 gsap.to("button", { padding: "10", color: "orange", backgroundColor: "black", borderRadius: "15px" });
 gsap.to("a", { backgroundColor: "orange", color: "white" });
+
+gsap.fromTo(".text", { x: 10, y: -10, opacity: "0" }, { duration: 2, x: 200, y: -10, fontSize: "1.5em", opacity: "1", fontFamily: "fantasy" });
