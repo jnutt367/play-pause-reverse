@@ -1,4 +1,4 @@
-var dudeGo = gsap.fromTo(".dude", { x: 400, opacity: "0" }, { duration: 3, x: 550, y: 200, scale: "2", rotate: "360", ease: "bounce.inOut", opacity: "1", paused: true });
+var dudeGo = gsap.fromTo(".dude", { x: 400, opacity: "0" }, { duration: 3, x: 550, y: 200, marginLeft: "100", rotate: "360", scale: "3", ease: "bounce.inOut", opacity: "1", paused: true });
 
 document.getElementById("play").onclick = () => dudeGo.play();
 
